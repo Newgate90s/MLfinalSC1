@@ -112,7 +112,7 @@ wait = input("\nPress enter to view Multilayer Perceptron Classifier accuracy re
 
 print('-'*100)
 
-# We then call our fourth and final classifier, the ANN classifier from
+# We then call our fourth and final classifier, the Multilayer Perceptron classifier from
 MLP_CLassifier = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(5, 2), random_state=1)
 MLP_CLassifier.fit(X_train, y_train)
 MLP_Prediction = MLP_CLassifier.predict(X_test)
