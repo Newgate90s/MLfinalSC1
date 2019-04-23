@@ -41,7 +41,7 @@ print("\nStats used: "
       "\n- Win methods"
       "\n- Last 3 fight outcomes")
 
-print("\nDataframe legend:"
+print("\nData frame legend:"
       "\n- Win method: 1 = KO/TKO, 2 = Submissions, 3 = Decision"
       "\n- Winner: 1 = Red fighter, 2 = Blue fighter"
       "\n- Last fight: 1 = Win, 2 = Loss, 3 = Draw")
